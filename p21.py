@@ -4,7 +4,6 @@
 # character by character. There shouldn't be any space between the name and
 # the exclamation mark. You can use + operator to concatenate two strings.
 a=input("Enter your name:")
-if a=="Avtandil":
+b=type(a)
+if b==str():
 	print("Hello "+ a + "!")
-elif a!="Avtandil":
-	print("GO OUT!")
